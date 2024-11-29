@@ -1,7 +1,7 @@
 /*global*/
 html,body{
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
 body{
     font-family: Arial;
@@ -32,17 +32,9 @@ p{
     letter-spacing: 2px;
     font-size: 12px;
 }
-.button{
+.btn-info{
     display: inline-block;
     background-color: sienna;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 12px;
 }
 .bottom-line{
     border-bottom:1px solid lightgray;
@@ -62,6 +54,11 @@ p{
     color: white;
     height: 350px;
     text-align: center
+}
+.secondary-header{
+    background-color: black;
+    height: 100px;
+    color: white;
 }
 .menu a{
     color:white;
@@ -86,3 +83,32 @@ p{
     background: black;
     color: white;
     }
+
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form{
+    background-color:white;
+    padding:20px;
+    margin-top: -40px;
+}
+.input-control{
+    margin-bottom: 20px;
+}
+.input-control label{
+    display: inline-block;
+    width: 120px;
+}
+.input-control input,
+.input-control textarea{
+    width: 60%;
+    padding: 5px;
+    border:1px solid gray;
+}
+
+/*Courses*/
+.courses{
+    width: 40%;
+}
